@@ -17,7 +17,7 @@ let player1 = 0,
   cnt_player = 0;
 document.querySelector(".btn--roll").addEventListener("click", function () {
   let val = random_Number();
-  dice_image.src = `dice-${val}.png`;
+  dice_image.src = `imgs/dice-${val}.png`;
   if (val != 1) {
     modal_add();
     player1
